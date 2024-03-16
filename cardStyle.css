@@ -1,0 +1,49 @@
+body {
+	font-family: sans-serif;
+	background-color: #dedede;
+	color: #333;
+	padding: 20px 0 28px 0;
+	margin: 0;
+}
+
+.card{
+	max-width: 650px;
+	padding: 20px;
+	margin: 30px auto;
+	background-color: #fff;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	display: flex;
+	gap: 20px;
+}
+
+.card-photo{
+	width: 40%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.card-info{
+	flex: 1
+}
+
+.species{
+	font-size: 0.9rem;
+	color: #888;
+}
+
+.author{
+	font-size: 0.9rem;
+}
+
+.author-location{
+	font-size: 0.9rem;
+}
+
+.author-description{
+	font-size: 1rem;
+	padding-top: 0.5rem;
+}
